@@ -1,6 +1,6 @@
-site_name: Your Site Name
-site_description: Your site description
-site_url: https://yourdomain.com
+site_name: Taylen Doesburg
+site_description: Personal website of Taylen Doesburg
+site_url: https://taylendoesburg.nl
 
 nav:
   - Home:
@@ -10,8 +10,7 @@ nav:
     - Projects:
       - portfolio/projects/project-1.md
       - portfolio/projects/project-2.md
-  - Blog:
-    - blog/index.md 
+  - Book a free intro call: https://calendly.com/tdoesburg-devaware/30min 
 
 theme:
   name: material
@@ -46,19 +45,19 @@ theme:
     code: Roboto Mono
   icon:
     logo: material/slash-forward-box
-  favicon: assets/favicon.png
+  favicon: assets/favicon.png 
 
 extra:
   generator: true
   social:
     - icon: fontawesome/solid/building
-      link: https://company.com
+      link: https://devaware.nl
     - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://github.com/tdoesburg-devaware
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/devaware.official
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/taylendoesburg/
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -68,13 +67,6 @@ extra_css:
   - stylesheets/hero.css
 plugins:
   - search
-  - social:
-      cards_layout_options:
-        background_color: "#111111"
-  - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
-      categories: true
 
 markdown_extensions:
   - attr_list
@@ -98,8 +90,5 @@ markdown_extensions:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js
 
-extra_files:
-  - docs/robots.txt
-
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.
+  &copy; 2026 <a href="https://www.linkedin.com/in/taylendoesburg/" target="_blank" rel="noopener">Taylen Doesburg</a>. All rights reserved.
