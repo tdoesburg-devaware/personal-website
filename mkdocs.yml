@@ -5,11 +5,6 @@ site_url: https://taylendoesburg.nl
 nav:
   - Home:
     - About: index.md
-  - Case Studies:
-    - Overview: portfolio/index.md
-    - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
   - Book a free intro call: https://calendly.com/tdoesburg-devaware/30min 
 
 theme:
